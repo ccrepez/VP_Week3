@@ -1,4 +1,4 @@
-package com.christa.vp_week3.soal1.data
+package com.christa.vp_week3.soal1
 
 enum class GameState {
     START,
