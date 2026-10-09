@@ -4,11 +4,15 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+
 //ubah ke package soal berapa
 
 //import com.christa.vp_week3.soal1.ReactionView
 //import com.christa.vp_week3.soal2.CatClickerView
-import com.christa.vp_week3.soal3.ColorWordView
+//import com.christa.vp_week3.soal3.ColorWordView
+//import com.christa.vp_week3.soal4.RpsView
+//import com.christa.vp_week3.bonus1.CoffeeOrderView
+import com.christa.vp_week3.bonus2.TravelJournalView
 
 import com.christa.vp_week3.ui.theme.VP_Week3Theme
 
@@ -22,7 +26,10 @@ class MainActivity : ComponentActivity() {
 
                 //ReactionView() //soal1
                 //CatClickerView() //soal2
-                ColorWordView() //soal3
+                //ColorWordView() //soal3
+                //RpsView() //soal4
+                //CoffeeOrderView() //bonus1
+                TravelJournalView() //bonus2
             }
         }
     }
